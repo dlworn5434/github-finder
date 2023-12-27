@@ -1,0 +1,139 @@
+/* 기본 스타일링 */
+body, html {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #f4f4f4;
+}
+h1 {
+    margin-left: 20px;
+}
+p {
+    margin-left: 20px;
+    color : gray;
+}
+/* Navbar 스타일링 */
+#navbar {
+    background-color: rgb(69,130,236); /* 네비게이션 바의 배경색 */
+    color: white; /* 네비게이션 바 내 텍스트 색상 */
+    padding: 10px 20px; /* 상하, 좌우 패딩 */
+
+}
+
+#navbar h1 {
+    margin: 0; /* 기본 마진 제거 */
+}
+
+/* 검색 컨테이너 스타일링 */
+#search-container {
+ 
+    margin: 20px auto;
+}
+
+#search-container p {
+    
+    margin-top: 10px;
+}
+
+/* 검색 입력 필드 스타일링 */
+#searchUser {
+    margin-left: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* 버튼 스타일링 */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* 프로필 섹션 스타일링 */
+
+#profile {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    
+}
+
+.profile-stats {
+    display: flex;
+
+}
+.profile-stats p{
+    display: grid;
+
+}
+.profileHTML span {
+    background: #eff3f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+    margin-left: 20px;
+     
+}
+#profile img {
+    border-radius: 50%;
+}
+
+/* 레포지토리 목록 스타일링 */
+#repos h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* 레포지토리 아이템 스타일링 */
+.repo-item {
+    background: #fff;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; 
+}
+
+/* 레포지토리 스탯 컨테이너 스타일링 */
+.repo-stats {
+    display: flex;
+    gap: 15px; 
+
+}
+
+/* 레포지토리 스탯 스타일링 */
+.repo-stats span {
+    background: #eff3f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 링크 스타일링 */
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+/* Spinner 스타일링 */
+#spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #333;
+}
